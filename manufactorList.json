@@ -1,0 +1,14 @@
+{
+  "manufactorList": [
+    {
+      "name" : "Test Manufactor",
+      "mobileList": [
+        {
+          "name": "Test Phone",
+          "codename": "tespho",
+          "maintainer": "ISNing"
+        }
+      ]
+    }
+  ]
+}

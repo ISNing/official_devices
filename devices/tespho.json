@@ -1,0 +1,9 @@
+{
+  "device": {
+    "name": "Test Phone",
+    "codename": "testpho",
+    "manufactor_display": "Test Manufactor",
+    "manufactor": "testmanufactor",
+    "maintainer": "ISNing"
+  }
+}

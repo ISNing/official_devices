@@ -5,8 +5,7 @@
       "mobileList": [
         {
           "name": "Test Phone",
-          "codename": "tespho",
-          "maintainer": "ISNing"
+          "codename": "tespho"
         }
       ]
     }

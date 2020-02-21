@@ -1,0 +1,10 @@
+{
+  "device": {
+    "name": "Test xxx",
+    "codename": "tesxxx",
+    "manufactor_display": "Test Manufactor",
+    "manufactor": "testmanufactor",
+    "maintainer": "ISNing",
+    "imageURL": "https://raw.githubusercontent.com/ISNing/official_devices/master/devices/tesxxx/image.png"
+  }
+}

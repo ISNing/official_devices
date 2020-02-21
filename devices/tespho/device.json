@@ -1,0 +1,10 @@
+{
+  "device": {
+    "name": "Test Phone",
+    "codename": "tespho",
+    "manufactor_display": "Test Manufactor",
+    "manufactor": "testmanufactor",
+    "maintainer": "ISNing",
+    "imageURL": "https://raw.githubusercontent.com/ISNing/official_devices/master/devices/tespho/image.png"
+  }
+}

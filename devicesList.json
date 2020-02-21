@@ -6,6 +6,23 @@
         {
           "name": "Test Phone",
           "codename": "tespho"
+        },
+        {
+          "name": "Test xxx",
+          "codename": "tesxxx"
+        }
+      ]
+    },
+    {
+      "name" : "Test Manufactor xxxx",
+      "mobileList": [
+        {
+          "name": "Test xxx",
+          "codename": "tesxxx"
+        },
+        {
+          "name": "Test Phone",
+          "codename": "tespho"
         }
       ]
     }

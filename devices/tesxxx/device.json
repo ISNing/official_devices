@@ -1,10 +1,128 @@
 {
-  "device": {
-    "name": "Test xxx",
-    "codename": "tesxxx",
-    "manufactor_display": "Test Manufactor",
-    "manufactor": "testmanufactor",
-    "maintainer": "ISNing",
-    "imageURL": "https://raw.githubusercontent.com/ISNing/official_devices/master/devices/tesxxx/image.png"
-  }
+  "architecture": {
+    "cpu": "arm64",
+    "userspace": "arm"
+  },
+  "battery": [
+    {
+      "A0001": {
+        "removable": true,
+        "capacity": 2800,
+        "tech": "Li-Ion",
+        "fastcharge": ""
+      }
+    },
+    {
+      "SM-6900F": {
+        "removable": true,
+        "capacity": 3000,
+        "tech": "Li-Po",
+        "fastcharge": "QC3.0"
+      }
+    }
+  ],
+  "bluetooth": {
+    "spec": "4.0 + LE"
+  },
+  "cameras": {
+    "front": [
+      {
+        "flash": "LED",
+        "info": "256 MP"
+      },
+      {
+        "flash": "",
+        "info": "2 MP"
+      }
+    ],
+    "back": [
+      {
+        "flash": "LED",
+        "info": "16 MP"
+      },
+      {
+        "flash": "",
+        "info": "2 MP"
+      }
+    ]
+  },
+  "channels": [
+    "nightly"
+  ],
+  "codename": "tespho",
+  "cpu": "eProc c102",
+  "cpu_cores": "256",
+  "cpu_freq": "10.2 GHz",
+  "current_branch": "9",
+  "custom_unlock_cmd": "fastboot oem kill-me-please",
+  "depth": "7.3 mm",
+  "download_boot": "With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.",
+  "gpu": "exTHm ",
+  "height": "144.6 m",
+  "imageURL": "https://raw.githubusercontent.com/ISNing/official_devices/master/devices/tespho/image.png",
+  "install_method": "Recovery Flashing",
+  "kernel": "android_kernel_lge_msm8974",
+  "maintainers": [
+    "you",
+    "another person",
+    "a third person"
+  ],
+  "models": [
+    "A0001",
+    "SM-G900F"
+  ],
+  "name": "Galaxy Note Sample",
+  "network": [
+    {
+      "tech": "2G",
+      "bands": "850 900 1900 2100 MHz GSM, 800 1900 MHz CDMA"
+    },
+    {
+      "tech": "3G",
+      "bands": "850 900 1800 1900 HSDPA, CDMA2000 1xEV-DO"
+    },
+    {
+      "tech": "4G",
+      "bands": "3(1800) 7(2600) 8(900) 20(800) LTE"
+    }
+  ],
+  "peripherals": [
+    "Fingerprint reader",
+    "Heart rate sensor",
+    "Motion Coprocessor",
+    "Accelerometer",
+    "Gesture sensor",
+    "Gyroscope",
+    "Proximity sensor",
+    "Compass",
+    "Barometer",
+    "Hall effect sensor",
+    "RGB ambient light",
+    "Infrared sensor",
+    "GPS",
+    "NFC"
+  ],
+  "ram": "2 GB",
+  "recovery_boot": "With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.",
+  "release": "2014-04-11",
+  "required_bootloader": [
+    "T713XXU2BQCO",
+    "T713XXU2BQCP"
+  ],
+  "screen": "130 mm (5.1 in)",
+  "screen_ppi": 432,
+  "screen_res": "1920x1080",
+  "screen_tech": "Full HD Super AMOLED",
+  "sdcard": "up to 128 GB",
+  "soc": "",
+  "storage": "16/32 GB",
+  "tree": "android_device_lge_sample",
+  "type": "phone",
+  "vendor": "exTHm",
+  "vendor_short": "exthm",
+  "versions": [
+    "9.0"
+  ],
+  "width": "69.2 m",
+  "wifi": "802.11 a/b/g/n/ac/ax"
 }
